@@ -49,7 +49,7 @@ namespace SonarCloudTest
             InitializeComponent();
             multiLine.Location = new Point(this.Location.X + this.tbOneLine.Location.X, this.Location.Y + this.tbOneLine.Location.Y);
             multiLine.Hide();
-            //Test
+            //Test2
         }
 
         private void Form1_Load(object sender, EventArgs e)

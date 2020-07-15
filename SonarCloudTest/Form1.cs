@@ -16,5 +16,19 @@ namespace SonarCloudTest
         {
             InitializeComponent();
         }
+
+        int ClickCount = 0;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //TestCode
+            if (true)
+            {
+                if (true)
+                {
+
+                }
+            }
+            label1.Text = string.Format("{0}번 누름", ++ClickCount);
+        }
     }
 }
